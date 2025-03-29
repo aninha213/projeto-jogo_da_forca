@@ -14,7 +14,7 @@ def game():
     print('Adivinhe a palavra abaixo e ganhe!\n')
 
     # Lista de palavras para o jogo
-    palavras = ['roblox', 'autismo', 'feijao', 'cuscuz']
+    palavras = ['Gato', 'Pipoca', 'Feijão', 'Banana']
 
     # Escolher a palavra de forma randômica
     palavra = random.choice(palavras)
@@ -51,7 +51,7 @@ def game():
 
         # Verifica se o jogador venceu (não há mais '_')
         if '_' not in letras_descobertas:
-            print('\nVocê venceu! Ganhou 100 robux, a palavra era:', palavra)
+            print('\nVocê venceu! a palavra era:', palavra)
             break  # Sai do loop de jogo
 
     if chances == 0:  # Se o número de chances chegar a zero, o jogador perdeu
